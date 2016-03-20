@@ -320,7 +320,7 @@
     },
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
-      "name": "[concat(parameters('vmNamePrefix'), copyindex(),'/newuserscript')]",
+      "name": "[concat(parameters('vmNamePrefix'), copyindex(),'/helloweb')]",
       "apiVersion": "[variables('apiVersion')]",
       "location": "[resourceGroup().location]",
       "copy": {
@@ -339,7 +339,7 @@
           "fileUris": [
             "https://raw.githubusercontent.com/daveyb/ubuntu-docker-aspnet-with-loadbalancer/master/bootstrap-aspnet-docker.sh"
           ],
-          "commandToExecute": "sh bootstrap_aspnet_docker.sh"
+          "commandToExecute": "sh bootstrap-aspnet-docker.sh"
         }
       }
     }

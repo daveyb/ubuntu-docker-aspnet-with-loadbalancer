@@ -15,4 +15,4 @@ cd aspnet-Home/samples/1.0.0-rc1-final/HellowWeb
 
 docker build -t helloweb .
 
-docker run -t -d -p 80:5004 myapp
+docker run -t -d -p 80:5004 helloweb
