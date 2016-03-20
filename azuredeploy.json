@@ -228,25 +228,6 @@
                 "id": "[variables('lbProbeID')]"
               }
             }
-          },
-          {
-            "name": "sshRule",
-            "properties": {
-              "frontendIPConfiguration": {
-                "id": "[variables('frontEndIPConfigID')]"
-              },
-              "backendAddressPool": {
-                "id": "[variables('lbPoolID')]"
-              },
-              "protocol": "tcp",
-              "frontendPort": 22,
-              "backendPort": 22,
-              "enableFloatingIP": false,
-              "idleTimeoutInMinutes": 5,
-              "probe": {
-                "id": "[variables('lbProbeID')]"
-              }
-            }
           }
         ],
         "probes": [
