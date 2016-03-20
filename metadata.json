@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Deploy ASP.NET Core HelloWeb MVC sites in Docker containers behind a load balancer",
+  "description": "This template creates a load balanced set of Ubuntu VMs running Docker containers with the ASP.NET core HelloWeb app listening on port 80",
+  "summary": "This template creates a load balanced set of Ubuntu VMs running Docker containers with the ASP.NET core HelloWeb app listening on port 80",
+  "githubUsername": "daveyb",
+  "dateUpdated": "2016-03-20"
+}
