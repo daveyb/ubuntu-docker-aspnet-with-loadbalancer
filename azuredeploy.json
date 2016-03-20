@@ -82,10 +82,11 @@
   },
   "variables": {
     "apiVersion": "2015-06-15",
+    "networkSecurityGroupName": "[parameters('subnet1Name')]",
     "publicIPAddressName": "publicip1",
     "publicIPAddressType": "Dynamic",
     "publicIPDnsPrefix": "[concat(parameters('publicIPDnsPrefix'),uniqueString(resourceGroup().name))]",
-    "loadBalancerName": "dockerWeb1",
+    "loadBalancerName": "webLB1",
     "storageAccountName": "[concat('dockervms', uniqueString(resourceGroup().name))]",
     "storageAccountType": "Standard_LRS",
     "availabilitySetName": "dockerWeb",
