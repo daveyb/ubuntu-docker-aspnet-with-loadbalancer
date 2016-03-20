@@ -337,7 +337,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/bitcore-centos-vm/install_bitcore.sh"
+            "https://raw.githubusercontent.com/daveyb/ubuntu-docker-aspnet-with-loadbalancer/master/bootstrap-aspnet-docker.sh"
           ],
           "commandToExecute": "sh bootstrap_aspnet_docker.sh"
         }
