@@ -319,7 +319,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/daveyb/ubuntu-docker-aspnet-with-loadbalancer/master/bootstrap-aspnet-docker.sh"
+            "https://raw.githubusercontent.com/daveyb/ubuntu-docker-aspnet-with-loadbalancer/develop/bootstrap-aspnet-docker.sh"
           ],
           "commandToExecute": "sh bootstrap-aspnet-docker.sh"
         }
